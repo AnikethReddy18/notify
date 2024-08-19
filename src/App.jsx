@@ -1,4 +1,4 @@
-
+import './index.css'
 import Navbar from './components/Navbar'
 
 function App() {
@@ -6,7 +6,9 @@ function App() {
 
   return (
     <>
-    <Navbar />
+    <div className='bg-pattern'>
+      <Navbar />
+      </div>
     </>
   )
 }
