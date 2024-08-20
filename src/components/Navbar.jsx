@@ -2,11 +2,11 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <nav className='bg-green-300 p-5'>
+    <nav className='bg-green-500 p-5'>
       <div className="container flex justify-between">
         <div className='flex '>
-          <img src="/logo.png" alt="" width={40} />
-          <span className='font-bold text-3xl my-auto mx-2'>Notify!</span>
+          <img src="/logo.png" className='' alt="" width={40} />
+          <span className='font-bold text-3xl text-white my-auto mx-2'>Notify!</span>
         </div>
       <div className='flex gap-5 text-xl p-1'>
         <a href="#" className=' hover:text-amber-600'>About</a>
