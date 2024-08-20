@@ -10,7 +10,7 @@ const Input = ({setCards}) => {
     }
 
     return (
-        <div>
+        <div className='my-3'>
             <input type="text" placeholder="Enter Your Note" className='m-3 p-1' value={cardText} onChange={(e) => setCardText(e.target.value)}
                 onKeyDown={(e) => e.key === 'Enter' && addCard()} />
             <button className="bg-green-400 p-1 rounded-md" onClick={addCard}>Click Me</button>
